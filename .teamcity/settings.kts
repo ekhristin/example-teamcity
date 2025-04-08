@@ -39,8 +39,8 @@ object Build : BuildType({
     name = "Build"
 
     artifactRules = """
-        target/original-plaindoll-0.0.7.jar
-        target/plaindoll-0.0.7.jar
+        target/original-plaindoll-0.0.9.jar
+        target/plaindoll-0.0.9.jar
     """.trimIndent()
     publishArtifacts = PublishMode.SUCCESSFUL
 })
