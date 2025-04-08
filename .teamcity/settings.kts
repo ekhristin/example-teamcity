@@ -37,6 +37,12 @@ project {
 object Build : BuildType({
     templates(id656)
     name = "Build"
+
+    artifactRules = """
+        target/original-plaindoll-0.0.7.jar
+        target/plaindoll-0.0.7.jar
+    """.trimIndent()
+    publishArtifacts = PublishMode.SUCCESSFUL
 })
 
 object id656 : Template({
